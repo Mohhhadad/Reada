@@ -22,6 +22,59 @@ Reada lets students:
 | **Admin** | Dashboard, manage books, categories and colleges, registered students, preparing orders, approving payments, shipping company accounts, answering support |
 | **Shipping company** | Log in, dashboard, shipping requests, change password |
 
+## My Role
+
+I was the **team leader** of a four-person team, and I worked on both the planning and the technical side of the project.
+
+### Project & Team Leadership
+- Came up with the **project idea** and defined the problem Reada solves
+- Led the team and organized our work, with meetings twice a week
+- Took part in the **system analysis and design** (requirements, diagrams, database design)
+
+### Development
+- Built **every page that works with the database**: all the main workflows of the system
+- Handled the **database integration** across the whole system
+- **Debugged and fixed** coding errors across the project, including code written by other team members
+
+### Features I Built
+
+**Student side**
+- **Wallet & financial transactions**: add money, withdraw, view balance, and automatic transfer between buyer and seller on every order\
+  `payment.php`
+- **Ordering system**: students order books and track their orders\
+  `orderedbooks.php`
+- **Book management**: "My Books" page and editing listed books\
+  `mybooks.php`, `manage-books.php`, `edit-book.php`
+- **Address management** for delivery\
+  `Address.php`
+- **Online support**: students send messages to the admin\
+  `support.php`
+
+**Admin side**
+- **Transactions panel**: review and approve deposit and withdrawal requests\
+  `admin/manage-payment-of.php`
+- **Order preparation**: admin prepares orders and hands them to shipping\
+  `admin/PreparingOrders.php`
+- **Book review**: admin approves books before they're listed, and can edit them\
+  `admin/manage-books.php`, `admin/edit-book.php`
+- **Student management**: activate or block student accounts\
+  `admin/reg-students.php`
+- **Shipping company accounts**: create and manage shipping company accounts\
+  `admin/mng-shippingCo.php`
+- **Support replies**: answer student messages\
+  `admin/adminsupport.php`, `admin/responseto.php`
+
+**Shipping company side**
+- **Shipping workflow**: view shipping requests and update pickup and delivery status\
+  `ShippingReq.php`
+
+**All users**
+- **Role-based dashboards**: a separate dashboard for each user type (student, admin, shipping company)\
+  `dashboard.php`, `admin/dashboard.php`, `ShipCoDash.php`
+
+### Skills Used
+PHP · MySQL · PDO · HTML/CSS · Bootstrap · Systems Analysis & Design · Database Design (ERD, Normalization) · Team Leadership
+
 ## Tech Stack
 
 - PHP (PDO)
